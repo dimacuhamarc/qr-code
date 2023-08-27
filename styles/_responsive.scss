@@ -1,0 +1,27 @@
+//The designs were created to the following widths:
+
+//- Mobile: 375px
+//- Desktop: 1440px
+
+
+@media only screen and (max-width:375px) {
+    .container {
+        margin: 2rem !important;
+        max-width: 80% !important;
+    }
+
+    .qr-code {
+        max-width: 100%;
+    }
+
+    .qr-code-info {
+        margin: 1rem 0;
+        
+        h1 {
+            font-size: 1.2rem !important;
+        }
+        p {
+            font-size: 0.8rem !important;
+        }
+    }
+}
